@@ -7,12 +7,20 @@ import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationClient;
 import com.amap.api.location.AMapLocationClientOption;
 import com.amap.api.location.AMapLocationListener;
+import com.amap.api.maps.model.LatLng;
+import com.amap.api.maps.model.Poi;
+import com.amap.api.navi.AmapNaviPage;
+import com.amap.api.navi.AmapNaviParams;
+import com.amap.api.navi.AmapNaviType;
+import com.amap.api.navi.AmapPageType;
 import com.zkty.nativ.core.NativeModule;
 import com.zkty.nativ.core.XEngineApplication;
 import com.zkty.nativ.geo.IGeoManager;
 import com.zkty.nativ.geo.Igeo;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Nativegeo_gaode extends NativeModule implements Igeo {
@@ -91,4 +99,21 @@ public class Nativegeo_gaode extends NativeModule implements Igeo {
         }
 
     }
+
+    @Override
+    public void navigate(IGeoManager.CallBack callBack) {
+        //起点
+        Poi start = new Poi("北京首都机场", new LatLng(40.080525, 116.603039), "B000A28DAE");
+        //途经点
+        List<Poi> poiList = new ArrayList();
+        poiList.add(new Poi("故宫", new LatLng(39.918058, 116.397026), "B000A8UIN8"));
+        //终点
+        Poi end = new Poi("北京大学", new LatLng(39.941823, 116.426319), "B000A816R6");
+        // 组件参数配置
+        AmapNaviParams params = new AmapNaviParams(null, null, end, AmapNaviType.DRIVER, AmapPageType.ROUTE);
+        // 启动组件
+        AmapNaviPage.getInstance().showRouteActivity(XEngineApplication.getCurrentActivity(), params, null);
+
+    }
+
 }

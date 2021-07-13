@@ -129,6 +129,89 @@ public class Nativegeo extends NativeModule implements IGeoManager {
             }
         });
 
+    }
+
+    @Override
+    public void navigate(CallBack callBack) {
+        permissions = permissionsO;
+        if (Build.VERSION.SDK_INT >= 29) {
+            permissions = permissionsQ;
+        }
+
+
+        Activity activity = XEngineApplication.getCurrentActivity();
+        if (activity == null || !(activity instanceof BaseXEngineActivity)) return;
+        final BaseXEngineActivity act = (BaseXEngineActivity) activity;
+        permissionsUtils = new PermissionsUtils();
+        if (lifeCycleListener != null) {
+            act.removeLifeCycleListener(lifeCycleListener);
+            lifeCycleListener = null;
+        }
+        lifeCycleListener = new LifecycleListener() {
+            @Override
+            public void onCreate() {
+
+            }
+
+            @Override
+            public void onStart() {
+
+            }
+
+            @Override
+            public void onRestart() {
+
+            }
+
+            @Override
+            public void onResume() {
+
+            }
+
+            @Override
+            public void onPause() {
+
+            }
+
+            @Override
+            public void onStop() {
+
+            }
+
+            @Override
+            public void onDestroy() {
+
+            }
+
+            @Override
+            public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+
+            }
+
+            @Override
+            public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+                if (requestCode == LOCATION_REQUEST_CODE)
+                    permissionsUtils.onRequestPermissionsResult(activity, requestCode, permissions, grantResults);
+            }
+        };
+
+        if (modules == null || modules.size() == 0) {
+            callBack.onLocation(null);
+            return;
+        }
+        act.addLifeCycleListener(lifeCycleListener);
+        permissionsUtils.checkPermissions(activity, permissions, LOCATION_REQUEST_CODE, new PermissionsUtils.IPermissionsResult() {
+            @Override
+            public void passPermissions() {
+                Igeo igeo = (Igeo) modules.get(0);
+                igeo.navigate(callBack);
+            }
+
+            @Override
+            public void forbidPermissions() {
+                callBack.onLocation(null);
+            }
+        });
 
     }
 }

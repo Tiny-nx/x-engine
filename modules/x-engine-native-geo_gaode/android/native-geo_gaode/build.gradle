@@ -45,5 +45,8 @@ dependencies {
     compile project(':native-core')
     compile project(':native-geo')
 
+    //定位
     api 'com.amap.api:location:latest.integration'
+    //导航
+    api 'com.amap.api:navi-3dmap:latest.integration'
 }
