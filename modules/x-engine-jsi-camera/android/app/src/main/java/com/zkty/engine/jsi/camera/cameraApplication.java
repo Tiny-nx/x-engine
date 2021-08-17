@@ -1,6 +1,7 @@
 package com.zkty.engine.jsi.camera;
 
-import com.zkty.modules.engine.XEngineApplication;
+
+import com.zkty.nativ.core.XEngineApplication;
 
 public class cameraApplication extends XEngineApplication {
     @Override

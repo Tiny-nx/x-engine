@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e167e57-e65a-4bc6-b9d9-f0df6576e618" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/PreImageCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/dialog/FullImageDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/res/layout/dialog_full_image.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zkty/engine/jsi/camera/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zkty/engine/jsi/camera/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zkty/engine/jsi/camera/cameraApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zkty/engine/jsi/camera/cameraApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/ICamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/ICamera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/NativeCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/NativeCamera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/GlideLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/GlideLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/adapter/ImagePreViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/adapter/ImagePreViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/utils/ImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/utils/ImageLoader.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[99f979dc]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1wqWG4PQXOkA7C3Jp8VJVvwYtmT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="xiaomi-m2011k2c-99f979dc" />
+    <property name="DEBUGGABLE_PROCESS" value="com.zkty.engine.jsi.camera" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-view/Users/mj/Documents/Android/guomei_workspace/x-engine/modules/x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/view/PinchImageView.java_SELECTED" value="PinchImageView" />
+    <property name="android-custom-view/Users/mj/Library/Android/gradle-6.0/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_SELECTED" value="ViewPager" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/res/layout" />
+    <property name="multi-representation-preview/Users/mj/Documents/Android/guomei_workspace/x-engine/modules/x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/view/PinchImageView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/mj/Library/Android/gradle-6.0/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zkty.nativ.camera" />
+      <recent name="com.zkty.nativ.camera.cameraImpl.dialog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/res/layout" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="android.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e167e57-e65a-4bc6-b9d9-f0df6576e618" name="Default Changelist" comment="" />
+      <created>1629186499456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629186499456</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2213" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1629190392083">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2213" y="247" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629190392083" />
+    <state x="2171" y="281" key="AndroidProcessChooserDialog" timestamp="1629190960336">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2171" y="281" key="AndroidProcessChooserDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629190960336" />
+    <state width="502" height="646" key="DebuggerActiveHint" timestamp="1629190741647">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="502" height="646" key="DebuggerActiveHint/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629190741647" />
+    <state width="732" height="805" key="Git.Branch.Popup" timestamp="1629187500463">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="732" height="805" key="Git.Branch.Popup/0.25.1440.824/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629187500463" />
+    <state width="1878" height="110" key="GridCell.Tab.0.bottom" timestamp="1629191000697">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="110" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629191000697" />
+    <state width="1878" height="110" key="GridCell.Tab.0.center" timestamp="1629191000696">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="110" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629191000696" />
+    <state width="1878" height="110" key="GridCell.Tab.0.left" timestamp="1629191000694">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="110" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629191000694" />
+    <state width="1878" height="110" key="GridCell.Tab.0.right" timestamp="1629191000697">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="110" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629191000697" />
+    <state width="409" height="221" key="javadoc.popup.new" timestamp="1629191091692">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="409" height="221" key="javadoc.popup.new/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629191091692" />
+    <state x="2065" y="202" width="670" height="676" key="search.everywhere.popup" timestamp="1629188022041">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="202" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629188022041" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/adapter/ImagePreViewAdapter.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/../../x-engine-native-camera/android/native-camera/src/main/java/com/zkty/nativ/camera/cameraImpl/GlideLoader.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

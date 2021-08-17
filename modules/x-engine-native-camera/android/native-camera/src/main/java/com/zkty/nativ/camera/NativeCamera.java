@@ -23,6 +23,9 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.zkty.nativ.camera.cameraImpl.GlideLoader;
 import com.zkty.nativ.camera.cameraImpl.ImagePicker;
+import com.zkty.nativ.camera.cameraImpl.data.MediaFile;
+import com.zkty.nativ.camera.cameraImpl.dialog.FullImageDialog;
+import com.zkty.nativ.camera.cameraImpl.manager.ConfigManager;
 import com.zkty.nativ.core.NativeModule;
 import com.zkty.nativ.core.XEngineApplication;
 import com.zkty.nativ.core.utils.ImageUtils;
@@ -473,5 +476,15 @@ public class NativeCamera extends NativeModule implements ICamera {
             ImageUtils.savePictureByBase64(activity, imageData);
         }
         callBack.saveCallBack();
+    }
+
+    @Override
+    public void preImage(List<MediaFile> imageDataList, int index, PreImageCallBack callBack) {
+        ConfigManager.getInstance().setImageLoader(new GlideLoader());
+        new FullImageDialog(XEngineApplication.getCurrentActivity())
+                .Builder()
+                .setImageMediaFileList(imageDataList, index)
+                .setOnDismissListener(callBack)
+                .show();
     }
 }
